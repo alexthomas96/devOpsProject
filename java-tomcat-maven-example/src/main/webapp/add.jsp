@@ -8,17 +8,16 @@
 		
 		String output = "Default";
 		try{
-		float res = Float.parseFloat(a) + Float.parseFloat(b);
+		Float res = Float.parseFloat(a) + Float.parseFloat(b);
 		output = "The sum is : " + Float.toString(res);
 		}
 		catch(Exception e)
 		{
-			output = "Invalid data entry!";
+			output = "Invalid Entry!";
 		}
 		finally{
-			return "<h1>"+output+ "</h1>";
+			return "<h1>" +output+ "</h1>";
 		}
-		
 	}
 %>
 
