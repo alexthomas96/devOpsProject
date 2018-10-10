@@ -16,7 +16,7 @@
 			output = "Invalid data entry!";
 		}
 		finally{
-			return "<h1>"+output+ "</h1>";
+			return "<h4>"+output+ "</h4>";
 		}
 		
 	}
