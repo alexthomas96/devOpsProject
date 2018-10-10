@@ -13,11 +13,12 @@
 		}
 		catch(Exception e)
 		{
-			output = "Invalid data entry!";
+			output = "Invalid data entry! :)";
 		}
 		finally{
 			return "<h1>" +output+ "</h1>";
 		}
+		
 	}
 %>
 
