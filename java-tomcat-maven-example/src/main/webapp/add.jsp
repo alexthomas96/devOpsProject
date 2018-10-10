@@ -9,14 +9,14 @@
 		String output = "Default";
 		try{
 		float res = Float.parseFloat(a) + Float.parseFloat(b);
-		output = "The sum is: " + Float.toString(res);
+		output = "The sum is : " + Float.toString(res);
 		}
 		catch(Exception e)
 		{
-			output = "Invalid data entry! :-)";
+			output = "Invalid data entry!";
 		}
 		finally{
-			return "<h1>" +output+ "</h1>";
+			return "<h3 style=\"color:white\">" +output+ "</h3>";
 		}
 		
 	}
