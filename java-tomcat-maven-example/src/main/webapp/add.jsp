@@ -8,8 +8,8 @@
 		
 		String output = "Default";
 		try{
-		int res = Integer.parseInt(a) + Integer.parseInt(b);
-		output = "The sum is: " + Integer.toString(res);
+		float res = Float.parseFloat(a) + Float.parseFloat(b);
+		output = "The sum is: " + Float.toString(res);
 		}
 		catch(Exception e)
 		{
